@@ -15,9 +15,9 @@ This project establishes a resilient, scalable data pipeline designed to perform
 # 📊 Summary of Results and Key Findings
 The empirical evaluation confirms that a well-structured data preparation pipeline enhances the performance of all tested model architectures.
 
-1. **Random Forest (0.9820 Accuracy):** The ensemble configuration yielded the highest predictive accuracy by aggregating decision hypotheses. This is the preferred choice for high-stakes environments where performance is the primary objective.
-2. **Decision Tree (0.9643 Accuracy):** This model serves as a stable and interpretable baseline. It remains the superior choice for regulatory compliance, offering white-box visibility that allows stakeholders to explicitly trace, audit, and validate logic.
-3. **Multinomial Logistic Regression (0.9643 Accuracy):** This model provides a highly efficient and scalable solution for linear trends, confirming the efficacy of parametric approaches for this data distribution.
+1. **Random Forest (0.982 Accuracy):** The ensemble configuration yielded the highest predictive accuracy by aggregating decision hypotheses. This is the preferred choice for high-stakes environments where performance is the primary objective.
+2. **Decision Tree (0.964 Accuracy):** This model serves as a stable and interpretable baseline. It remains the superior choice for regulatory compliance, offering white-box visibility that allows stakeholders to explicitly trace, audit, and validate logic.
+3. **Multinomial Logistic Regression (0.964 Accuracy):** This model provides a highly efficient and scalable solution for linear trends, confirming the efficacy of parametric approaches for this data distribution.
 
 *Note: When data quality is enforced through schema validation, all model architectures perform with high stability. This confirms that rigorous data integrity is the primary driver of predictive success.*
 
